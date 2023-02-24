@@ -1,0 +1,9 @@
+body {
+    background-image: url(https://images.pexels.com/photos/14790095/pexels-photo-14790095.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load) ;
+    height: 98vh;
+    border: 1px dashed black;
+    margin: 1px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
