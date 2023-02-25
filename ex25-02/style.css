@@ -13,6 +13,14 @@ header {
     text-align: center;
 }
 
+@media (max-width:1081px){
+    header {
+        height: 6vh;
+        padding: 4vh;
+    }
+
+}
+
 header h1 {
     font-size: 6vw;
     font-family: 'Anton', sans-serif;
@@ -34,6 +42,15 @@ article {
     line-height: 7vh;
     padding: 2.4vh;
     border-radius: 8px; 
+}
+
+@media (max-width:1081px){
+
+    article {
+        font-size: 5vw;
+    }
+
+    
 }
 
 .nome {
