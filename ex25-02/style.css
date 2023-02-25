@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 100px;
+    padding-top: 7%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 6vw;
+}
+
+header p {
+    font-size: 2vw;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.verso1 {
+    padding: 10%;
+    background-color: gray;
+    text-align: left;
+    
+
+}
+
+.verso1 > article {
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 10vh;
+    padding: 20px;
+    
+    
+}
+
+.verso2 {
+    padding: 10%;
+    background-color: gray;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-size:cover ;
+    background-attachment: fixed;
+    text-align: left;
+
+}
+
+.verso2 > article {
+    width: max-content;
+    background-color: rgba(28, 144, 161, 0.574);
+    color:rgb(0, 0, 0);
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 10vh;
+    padding: 20px;
+    border-radius: 8px;
+    
+    
+}
+
+.verso3 {
+    
+    padding: 10%;
+    background-color: gray;
+    text-align: left;
+    
+}
+    
+.verso3 > article {
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 10vh;
+    padding: 20px;
+        
+        
+}
+
+.verso4 {
+    padding: 10%;
+    background-color: gray;
+    background-image: url(imagens/back01.jpeg);
+    background-position: center center;
+    background-size:cover ;
+    background-attachment: fixed;
+    text-align: left;
+
+}
+
+.verso4 > article {
+    width: max-content;
+    background-color: rgba(26, 146, 76, 0.67);
+    color:rgb(0, 0, 0);
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 10vh;
+    padding: 20px;
+    border-radius: 8px;
+    
+    
+}
+
+.verso5 {
+    
+    padding: 10%;
+    background-color: gray;
+    text-align: left;
+        
+    
+}
+    
+.verso5 > article {
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 10vh;
+    padding: 20px;
+        
+        
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
