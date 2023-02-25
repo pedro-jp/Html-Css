@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sriracha&display=swap');
+
 * {
     margin: 0;
 }
 
 header {
     position: relative;
-    height: 100px;
-    padding-top: 7%;
+    height: 8vh;
+    padding: 8vh;
     background-color: black;
     color: white;
     text-align: center;
@@ -13,10 +15,25 @@ header {
 
 header h1 {
     font-size: 6vw;
+    font-family: 'Anton', sans-serif;
 }
 
 header p {
     font-size: 2vw;
+    
+}
+
+section {
+    font-family: 'Sriracha', cursive;
+}
+
+article {
+    width: max-content;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 7vh;
+    padding: 2.4vh;
+    border-radius: 8px; 
 }
 
 .nome {
@@ -30,61 +47,39 @@ header p {
     padding: 0px 10%;
     background-color: gray;
     text-align: left;
-    
-
-}
-
-.texto > article {
-    font-size: 3vw;
-    font-weight: bold;
-    line-height: 10vh;
-    padding: 1.4vh;
-    
-    
 }
 
 .verso2 {
     padding: 10%;
     background-color: gray;
     background-image: url(imagens/wallpaper002.jpg);
-    background-position: center center;
+    background-position: left center;
     background-size:cover ;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
     text-align: left;
 
 }
 
 .verso2 > article {
-    width: max-content;
     background-color: rgba(28, 144, 161, 0.574);
     color:rgb(0, 0, 0);
-    font-size: 3vw;
-    font-weight: bold;
-    line-height: 10vh;
-    padding: 1.4vh;
-    border-radius: 8px; 
 }
 
 .verso4 {
     padding: 10%;
     background-color: gray;
     background-image: url(imagens/back01.jpeg);
-    background-position: center center;
+    background-position: left center;
     background-size:cover ;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
     text-align: left;
-
 }
 
 .verso4 > article {
-    width: max-content;
     background-color: rgba(26, 146, 76, 0.67);
     color:rgb(0, 0, 0);
-    font-size: 3vw;
-    font-weight: bold;
-    line-height: 10vh;
-    padding: 1.4vh;
-    border-radius: 8px;
 }
 
 footer {
