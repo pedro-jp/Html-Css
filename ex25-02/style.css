@@ -26,7 +26,7 @@ header p {
     transform: translate(-50%, -50%);
 }
 
-.verso1 {
+.texto {
     padding: 0px 10%;
     background-color: gray;
     text-align: left;
@@ -34,11 +34,11 @@ header p {
 
 }
 
-.verso1 > article {
+.texto > article {
     font-size: 3vw;
     font-weight: bold;
     line-height: 10vh;
-    padding: 20px;
+    padding: 1.4vh;
     
     
 }
@@ -61,27 +61,8 @@ header p {
     font-size: 3vw;
     font-weight: bold;
     line-height: 10vh;
-    padding: 20px;
-    border-radius: 8px;
-    
-    
-}
-
-.verso3 {
-    
-    padding: 0px 10%;
-    background-color: gray;
-    text-align: left;
-    
-}
-    
-.verso3 > article {
-    font-size: 3vw;
-    font-weight: bold;
-    line-height: 10vh;
-    padding: 20px;
-        
-        
+    padding: 1.4vh;
+    border-radius: 8px; 
 }
 
 .verso4 {
@@ -102,28 +83,8 @@ header p {
     font-size: 3vw;
     font-weight: bold;
     line-height: 10vh;
-    padding: 20px;
+    padding: 1.4vh;
     border-radius: 8px;
-    
-    
-}
-
-.verso5 {
-    
-    padding: 0px 10%;
-    background-color: gray;
-    text-align: left;
-        
-    
-}
-    
-.verso5 > article {
-    font-size: 3vw;
-    font-weight: bold;
-    line-height: 10vh;
-    padding: 20px;
-        
-        
 }
 
 footer {
