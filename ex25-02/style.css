@@ -27,7 +27,7 @@ header p {
 }
 
 .verso1 {
-    padding: 10%;
+    padding: 0px 10%;
     background-color: gray;
     text-align: left;
     
@@ -69,7 +69,7 @@ header p {
 
 .verso3 {
     
-    padding: 10%;
+    padding: 0px 10%;
     background-color: gray;
     text-align: left;
     
@@ -110,7 +110,7 @@ header p {
 
 .verso5 {
     
-    padding: 10%;
+    padding: 0px 10%;
     background-color: gray;
     text-align: left;
         
