@@ -35,12 +35,10 @@ thead > tr > th {
     position: sticky;
     top: -1px;
     background-color: rgb(117, 128, 146);
-    
 }
 
 th, td {
     border: 1px solid black;
-    
 }
 
 .largura {
