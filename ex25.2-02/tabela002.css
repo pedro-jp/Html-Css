@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: black;
 }
 
 .tabela {
@@ -7,7 +8,7 @@ body {
     display: inline-block;
     padding: 30px;
     border: 6px solid black;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 table {
