@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+@media print {
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 2000px) {
+    menu {
+        display: block;
+    }
+
+     span#hamburger {
+            display: none ;
+        }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1920px) {
+    header {
+        margin-bottom: 50px;
+    }
+    
+    menu {
+        display: block;
+    }
+
+    span#hamburger {
+            display: none ;
+        }
+
+    main {
+
+        margin: auto;
+        width: 700px;
+    }
+
+
+
+}

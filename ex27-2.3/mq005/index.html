@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Meu Site</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+
+        <span id="hamburger" class="material-icons" onclick="clickMenu()">menu</span>
+        
+        <menu id="itens">
+            <ul>
+                <a href="">
+                    <li>Opção 1</li>
+                </a>
+                <a href="">
+                    <li>Opção 2</li>
+                </a>
+                <a href="">
+                    <li>Opção 3</li>
+                </a>
+                <a href="">
+                    <li>Opção 4</li>
+                </a>
+                <a href="">
+                    <li>Opção 5</li>
+                </a>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus voluptates minus fugit beatae tenetur facilis cumque, hic sint, neque obcaecati illo, ipsa suscipit nulla omnis dolor sequi at minima assumenda!
+            Sint impedit ipsa saepe, accusantium quas pariatur odit consectetur distinctio velit laboriosam qui nemo at odio molestias. Inventore sunt soluta, quia accusamus placeat consequuntur pariatur earum fugit harum numquam rem!
+            Debitis ratione deleniti ex impedit. Natus soluta, ullam, minus inventore tenetur quam, et cumque quod cupiditate atque mollitia? Labore quidem similique totam quam distinctio nostrum eum dolore, perspiciatis quaerat mollitia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati iusto ea animi error quo expedita aperiam dolorem id, quos exercitationem officiis qui a illo, alias nobis praesentium ab corporis.
+            Suscipit similique obcaecati, eveniet, voluptatem earum excepturi modi cumque sint reprehenderit error sequi molestiae commodi facere nobis praesentium consectetur. Quasi vitae nihil corporis magni quisquam! Eum libero itaque placeat earum?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quidem voluptate rerum quo voluptas sit, possimus qui labore et. Perferendis et numquam vel dolor aspernatur sapiente impedit dolorem inventore cupiditate.
+            Eveniet, at iste officiis minima impedit commodi fugiat veritatis voluptatum aut atque similique accusamus provident ducimus non dicta ratione nulla fugit mollitia perferendis ullam nesciunt, explicabo dolores molestias? Officia, facere?
+            Nisi impedit dignissimos quasi quo ipsam suscipit assumenda reprehenderit aliquid illum minima modi, dolores, consectetur blanditiis, temporibus quia hic? Dolore unde quaerat nobis adipisci soluta aliquid, itaque natus quod aperiam!</p>
+        </article>
+    </main>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+             } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+
+           } else {
+                (itens.style.display = 'block')
+               
+            } 
+        }
+    </script>
+</body>
+</html>

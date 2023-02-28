@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(25deg, rgba(164,58,180,1) 0%, rgba(221,15,61,1) 50%, rgba(36,10,113,1) 100%);
+}
+
+main {
+    display: block;
+    width: 250px;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: 80%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    background-image: url(../imagens/pexels-suzy-hazelwood-1629236.jpg);
+    border: 1px solid rgb(150, 13, 219);
+    box-shadow: 2px 2px 2px rgb(150, 13, 219);
+}
+
+form {
+    height: 300px;
+    position: absolute;
+    margin-top: 80%;
+    border-radius: 0px 0 20px 20px ;
+    background-color: white;
+    width: 100%;
+}
+
+legend {
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+}
+
+ p {
+    margin: 10px;
+     font-size: 0.75em;
+}
+
+.campo {
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    background-color: blueviolet;
+    margin: 0px 10px 5px 10px;
+}
+
+.campo input {
+    height: 30px;
+    width: 160px;
+    margin-left: 50px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.campo span {
+    color: white;
+    position: absolute;
+    padding: 0;
+    margin: 4px ;
+}
+
+
+
+.campo3 {
+    margin: 10px 10px 0px 10px;
+}
+
+.campo3 input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+#entrar {
+    border-style: none;
+    background-color: rgb(85, 30, 119);
+    color: white;
+}
+
+.esqueci {
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 28, 179);
+    text-align: center;
+}
+
+.esqueci a {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -60px;
+    text-decoration: none;
+    color: rgb(106, 28, 179) ;
+}
+
