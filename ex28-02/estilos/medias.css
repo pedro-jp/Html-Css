@@ -1,1 +1,37 @@
 @charset "utf-8";
+
+/* Tablet*/
+
+@media screen and (orientation:portrait) and (min-width:768px) and (max-width:2000px) {
+   main {
+    height: 400px;
+    width: 500px;
+   }
+
+   form {
+    height: 400px;
+    width: 250px;
+    margin: 0 0 0 50%;
+    border-radius: 0px 20px 20px 0px;
+   }
+
+   legend {
+    margin-top: 30px
+   }
+
+   p {
+    border: 2px solid rgb(189, 25, 151);
+    box-shadow: 2px 2px 4px rgb(180, 6, 50);
+    padding: 10px;
+    border-radius: 10px;
+   }
+
+   .campao {
+    margin-top: 20px;
+   }
+
+   .campinho {
+    margin-top: 20px;
+   }
+    
+}
