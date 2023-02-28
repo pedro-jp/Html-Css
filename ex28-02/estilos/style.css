@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -29,6 +30,9 @@ main {
     background-size: contain;
     border: 1px solid rgb(219, 13, 171);
     box-shadow: 2px 2px 2px rgb(150, 13, 219);
+    transition: width .3s, height .3s ;
+    transition-timing-function: ease;
+
 }
 
 form {
@@ -38,6 +42,8 @@ form {
     border-radius: 0px 0 20px 20px ;
     background-color: white;
     width: 100%;
+    transition: width .3s, height .3s ;
+    transition-timing-function: ease;
 }
 
 legend {
@@ -48,7 +54,7 @@ legend {
 
  p {
     margin: 10px;
-     font-size: 0.75em;
+     font-size: 0.75vw;
 }
 
 .campo {
@@ -81,7 +87,10 @@ legend {
     height: 40px;
     width: 100%;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
+
 
 #entrar {
     border-style: none;
@@ -105,4 +114,6 @@ legend {
     text-decoration: none;
     color: rgb(106, 28, 179) ;
 }
+
+
 
